@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Assalamualaikum Bumil 💖 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page" id="page1">
+        <h1>Barakallahu lakuma,
+            
+         Semoga dedek bayi dan ibu sehat yah 💖</h1>
+        <button onclick="nextPage()">Lanjut</button> <img src="https://i.ibb.co/CwzHq4z/baby.png" alt="Gambar Bayi" class="baby-img">
+    </div>
+
+    <div class="page hidden" id="page2">
+        <h2>For You </h2>
+        <ul>
+            <li>Apa Kabarnya nih ? </li>
+            <li>Hihihii saia nda tau mau ngomong apa... Tapi</li>
+            <li>Jazakumallahu khairan untuk semua kebaikannya selama kita saling kenal</li>
+            <li> Sudah menjadi teman dan pendengar cerita yang baik</li>
+            <li>Maaf kalo aku Sempat melukai hati mu, gak pernah bermaksud</li>
+            <li>Jadilah teman yang akan selalu mengajak kepada kebaikan yah</li>
+            <li>HIHIHIHI LOPEK DEH BUAT KAMU 💖</li>
+            
+        </ul>
+        <button onclick="nextPage()">Lanjut</button>
+         <img src="https://i.ibb.co/CwzHq4z/baby.png" alt="Gambar Bayi" class="baby-img">
+    </div>
+
+    <div class="page hidden" id="page3">
+        <h2>Tips untuk Ibu Hamil</h2>
+        <ul>
+            <li>Minum air putih minimal 8 gelas/hari</li>
+            <li>Jangan lupa senyum, biar dedek happy 😍</li>
+            <li>Periksa ke bidan atau dokter secara rutin YAH</li>
+            <li>Istirahat yang cukup dan hindari stres</li>
+        </ul>
+        <button onclick="nextPage()">Main Game Yuk!</button>
+         <img src="https://i.ibb.co/CwzHq4z/baby.png" alt="Gambar Bayi" class="baby-img">
+
+    </div>
+
+    <div class="page hidden" id="page4">
+        <h2>🎮 Game Mini: Klik Bayi!</h2>
+        <p>Klik dedek bayi sebanyak mungkin dalam 10 detik!</p>
+        <div id="gameArea">
+            <button id="babyBtn" onclick="clickBaby()">👶</button>
+        </div>
+        <p>Skor: <span id="score">0</span></p>
+        <p id="timer">Waktu: 10</p>
+        <button onclick="startGame()">Mulai Ulang</button>
+        <button onclick="nextPage()">Lanjut</button>
+        <img src="https://i.ibb.co/CwzHq4z/baby.png" alt="Gambar Bayi" class="baby-img">
+    </div>
+
+    <div class="page hidden" id="page5">
+    <h2>🎀 Game 2: Tebak Nama Kucing nya!</h2>
+    <p>Pilih nama paling cocok untuk bayi lucu ini!</p>
+    <img src="https://i.ibb.co/CwzHq4z/baby.png" alt="baby" class="baby-img">
+    <div id="quiz">
+        <button onclick="checkAnswer(this)">Rembo</button>
+        <button onclick="checkAnswer(this)">Moza</button>
+        <button onclick="checkAnswer(this)">Ucup</button>
+    </div>
+    <p id="quizResult"></p>
+    <button onclick="nextPage()">Lanjut</button>
+</div>
+
+    <div class="page hidden" id="page6">
+    <h2>🎉 Terima Kasih!</h2>
+    <p>Terima kasih sudah sudah mau jadi temanku Semoga ibu dan dedek bayi selalu sehat, bahagia, dan penuh berkah yah. 💖 Doain saia juga segera  nyusul hihihi</p>
+    <img src="https://i.ibb.co/CwzHq4z/baby.png" alt="baby" class="baby-img">
+    <p>Salam sayang dari Amel 👶✨</p>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

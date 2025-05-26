@@ -1,0 +1,44 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #ffd6f6, #d6f0ff);
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    color: #ff66b2;
+}
+
+.page {
+    display: none;
+}
+
+.page:not(.hidden) {
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    background-color: #66ccff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff99cc;
+}
+
+#babyBtn {
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.baby-img {
+    width: 150px;
+    margin-top: 20px;
+}
